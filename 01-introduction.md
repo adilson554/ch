@@ -1,16 +1,30 @@
-# Introduction
+<!-- # Introduction -->
+# Introdução
 
-## About this tutorial
+<!-- ## About this tutorial -->
+## Sobre este tutorial
 
-Welcome to *Learn You a Haskell for Great Good*! If you're reading this, chances are you want to learn Haskell. 
-Well, you've come to the right place, but let's talk about this tutorial a bit first. 
+<!-- Welcome to *Learn You a Haskell for Great Good*! If you're reading this, chances are you want to learn Haskell. -->
+<!-- Well, you've come to the right place, but let's talk about this tutorial a bit first. -->
+Bem Vindo ao *Aprenda Haskell para o Grande Bem!* Se você está lendo isto, existe a chance de você querer aprender Haskell.
+Bem, você veio ao lugar certo, mas primeiro, falaremos sobre este tutorial.
 
-I decided to write this because I wanted to solidify my own knowledge of Haskell and because I thought I could help people new to Haskell learn it from my perspective. 
-There are quite a few tutorials on Haskell floating around on the internet. 
-When I was starting out in Haskell, I didn't learn from just one resource. 
-The way I learned it was by reading several different tutorials and articles because each explained something in a different way than the other did. 
-By going through several resources, I was able put together the pieces and it all just came falling into place. 
-So this is an attempt at adding another useful resource for learning Haskell so you have a bigger chance of finding one you like. 
+
+
+<!-- I decided to write this because I wanted to solidify my own knowledge of Haskell and because I thought I could help people new to Haskell learn it from my perspective. -->
+<!-- There are quite a few tutorials on Haskell floating around on the internet. -->
+<!-- When I was starting out in Haskell, I didn't learn from just one resource.  -->
+<!-- The way I learned it was by reading several different tutorials and articles because each explained something in a different way than the other did. -->
+<!-- By going through several resources, I was able put together the pieces and it all just came falling into place. -->
+<!-- So this is an attempt at adding another useful resource for learning Haskell so you have a bigger chance of finding one you like. -->
+
+<div align="justify">
+Eu decidi escrever isto, porque eu queria solidificar meu próprio conhecimento de Haskell e porque eu pensei que poderia ajudar pessoas iniciantes em Haskell a aprender sob minha perspectiva.
+Existem alguns tutoriais sobre Haskell circulando na internet.
+Quando comecei em Haskell, não aprendi com apenas um recurso.
+A forma com que aprendi foi lendo vários tutoriais e artigos, porque cada um explicava algo de uma maneira diferente dos outros.
+Ao recorrer a vários recursos, eu fui capaz de juntar as peças e todas se encaixaram.
+Então isto é uma tentativa de adicionar outro recurso útil para aprender Haskell, e você ter uma chance maior de encontrar um que você goste.</div>
 
 ![alt text](img/01-01-bird.png)
 
@@ -25,7 +39,7 @@ But then once it just "clicked" and after getting over that initial hurdle, it w
 I guess what I'm trying to say is: Haskell is great and if you're interested in programming you should really learn it even if it seems weird at first. 
 Learning Haskell is much like learning to program for the first time — it's fun! It forces you to think differently, which brings us to the next section …  
 
-## So what's Haskell
+## So what's Haskell?
 
 ![alt text](img/01-02-fx.png) Haskell is a purely functional programming language. 
 In imperative languages you get things done by giving the computer a sequence of tasks and then it executes them. 
