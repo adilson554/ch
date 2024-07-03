@@ -12,6 +12,8 @@ The way I learned it was by reading several different tutorials and articles bec
 By going through several resources, I was able put together the pieces and it all just came falling into place. 
 So this is an attempt at adding another useful resource for learning Haskell so you have a bigger chance of finding one you like. 
 
+![alt text](img/01-01-bird.png)
+
 This tutorial is aimed at people who have experience in imperative programming languages (C, C++, Java, Python …) but haven't programmed in a functional language before (Haskell, ML, OCaml …). 
 Although I bet that even if you don't have any significant programming experience, a smart person such as yourself will be able to follow along and learn Haskell.
 
@@ -25,7 +27,7 @@ Learning Haskell is much like learning to program for the first time — it's fu
 
 ## So what's Haskell
 
-Haskell is a purely functional programming language. 
+![alt text](img/01-02-fx.png) Haskell is a purely functional programming language. 
 In imperative languages you get things done by giving the computer a sequence of tasks and then it executes them. 
 While executing them, it can change state. 
 For instance, you set variable a to 5 and then do some stuff and then set it to something else. 
@@ -41,7 +43,7 @@ At first, this seems kind of limiting but it actually has some very nice consequ
 That's called referential transparency and not only does it allow the compiler to reason about the program's behavior, but it also allows you to easily deduce (and even prove) that a function is correct and then build more complex functions by gluing simple functions together. 
 
 
-Haskell is lazy. 
+![alt text](img/01-03-lazy.png)Haskell is lazy. 
 That means that unless specifically told otherwise, Haskell won't execute functions and calculate things until it's really forced to show you a result. 
 That goes well with referential transparency and it allows you to think of programs as a series of transformations on data. 
 It also allows cool things such as infinite data structures. 
@@ -55,7 +57,7 @@ The first one sees that and tells you the first element is 8.
 So it only does one pass through the list and only when you really need it. 
 That way when you want something from a lazy language you can just take some initial data and efficiently transform and mend it so it resembles what you want at the end. 
 
-Haskell is statically typed. 
+![alt text](img/01-04-boat.png) Haskell is statically typed. 
 When you compile your program, the compiler knows which piece of code is a number, which is a string and so on. 
 That means that a lot of possible errors are caught at compile time. 
 If you try to add together a number and a string, the compiler will whine at you. 
