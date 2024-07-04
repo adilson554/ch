@@ -82,12 +82,20 @@ A única coisa que uma função pode fazer é calcular algo e retornar isso como
 No princípio, isto parece uma espécie de limitação, mas na verdade tem algumas consequências muito boas: Se uma função é chamada duas vezes com o mesmo parâmetro, isto garante que ela retornará o mesmo resultado as duas vezes.
 Isto é chamado de transparência referencial e não somente permite ao compilador raciocinar sobre o comportamento do programa, mas isso também permite você facilmente deduzir (e até provar) que uma função está correta e então contruir funções mais complexas encaixando funções mais simples.
 
-
-
+<!-- 
 ![alt text](img/01-03-lazy.png)Haskell is lazy. 
 That means that unless specifically told otherwise, Haskell won't execute functions and calculate things until it's really forced to show you a result. 
 That goes well with referential transparency and it allows you to think of programs as a series of transformations on data. 
 It also allows cool things such as infinite data structures. 
+
+
+-->
+
+![alt text](img/01-03-lazy.png) Haskell é preguiçoso.
+Isto significa que, a menos que seja especificadamente dito o contrário, Haskell não irá executar funções e calcular coisas antes que ele seja realmente forçado a mostrar o resultado.
+Isso funciona bem com transparência referencial e permite pensar em programas como uma série de tranformações nos dados.
+Isso também permitem coisas interessantes como estruturas de dados infinitas.
+
 Say you have an immutable list of numbers xs = [1,2,3,4,5,6,7,8] and a function doubleMe which multiplies every element by 2 and then returns a new list. 
 If we wanted to multiply our list by 8 in an imperative language and did doubleMe(doubleMe(doubleMe(xs))), it would probably pass through the list once and make a copy and then return it. 
 Then it would pass through the list another two times and return the result. 
