@@ -6,8 +6,10 @@
 
 <!-- Welcome to *Learn You a Haskell for Great Good*! If you're reading this, chances are you want to learn Haskell. -->
 <!-- Well, you've come to the right place, but let's talk about this tutorial a bit first. -->
+
+<div align="justify"> 
 Bem Vindo ao *Aprenda Haskell para o Grande Bem!* Se você está lendo isto, existe a chance de você querer aprender Haskell.
-Bem, você veio ao lugar certo, mas primeiro, falaremos sobre este tutorial.
+Bem, você veio ao lugar certo, mas primeiro, falaremos sobre este tutorial.</div><br>
 
 
 
@@ -28,18 +30,32 @@ Então isto é uma tentativa de adicionar outro recurso útil para aprender Hask
 
 ![alt text](img/01-01-bird.png)
 
-This tutorial is aimed at people who have experience in imperative programming languages (C, C++, Java, Python …) but haven't programmed in a functional language before (Haskell, ML, OCaml …). 
-Although I bet that even if you don't have any significant programming experience, a smart person such as yourself will be able to follow along and learn Haskell.
+<!-- This tutorial is aimed at people who have experience in imperative programming languages (C, C++, Java, Python …) but haven't programmed in a functional language before (Haskell, ML, OCaml …). 
+Although I bet that even if you don't have any significant programming experience, a smart person such as yourself will be able to follow along and learn Haskell. -->
 
-The channel #haskell on the freenode network is a great place to ask questions if you're feeling stuck. 
-People there are extremely nice, patient and understanding to newbies.
+<div align="justify"> 
+Este tutorial é direcionado a pessoas que possuem experiências em linguagens de programação imperativas (C, C++, Java, Python, ...) mas não programaram em uma linguagem funcional antes (Haskell, ML, OCaml, ...). 
+Embora eu aposto que mesmo que você não tenha alguma experiência significativa em programação, uma pessoa inteligente como você será capaz de acompanhar e aprender Haskell.</div>
 
-I failed to learn Haskell approximately 2 times before finally grasping it because it all just seemed too weird to me and I didn't get it. 
+<!-- The channel #haskell on the freenode network is a great place to ask questions if you're feeling stuck. 
+People there are extremely nice, patient and understanding to newbies. -->
+<br>
+<div align="justify"> 
+O canal #Haskell na rede freenode é um ótimo lugar para fazer perguntas se você estiver se sentindo preso.
+Pessoas lá são extremamente legais, pacientes e compreensivas com os novatos.
+</div><br>
+
+<!-- I failed to learn Haskell approximately 2 times before finally grasping it because it all just seemed too weird to me and I didn't get it. 
 But then once it just "clicked" and after getting over that initial hurdle, it was pretty much smooth sailing. 
 I guess what I'm trying to say is: Haskell is great and if you're interested in programming you should really learn it even if it seems weird at first. 
-Learning Haskell is much like learning to program for the first time — it's fun! It forces you to think differently, which brings us to the next section …  
+Learning Haskell is much like learning to program for the first time — it's fun! It forces you to think differently, which brings us to the next section …  --> 
+<div align="justify"> 
+Eu falhei em aprender Haskell por aproximadamente duas vezes antes de finalmente conseguir, pois tudo me parecia muito estranho e eu não conseguia entender. Porém uma vez que o "click" ocorreu, o obstáculo inicial foi superado e o aprendizado fluiu tranquilamente.
+Acho que o que estou tentando dizer é: Haskell é ótima, e se você está realmente interassado em programação, deveria realemente aprende-la, mesmo que isso pareça estranho no começo.
+Aprender Haskell é muito parecido com aprender a programar pela primeira vez - É divertido! Força você a pensar diferente, o que nos leva a próxima seção...</div><br>
 
-## So what's Haskell?
+<!-- ## So what's Haskell? -->
+## Então, o que é Haskell?
 
 ![alt text](img/01-02-fx.png) Haskell is a purely functional programming language. 
 In imperative languages you get things done by giving the computer a sequence of tasks and then it executes them. 
