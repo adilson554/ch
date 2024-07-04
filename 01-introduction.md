@@ -52,7 +52,7 @@ Aprender Haskell é muito parecido com aprender a programar pela primeira vez - 
 <!-- ## So what's Haskell? -->
 ## Então, o que é Haskell?
 
-![alt text](img/01-02-fx.png) Haskell is a purely functional programming language. 
+<!-- ![alt text](img/01-02-fx.png) Haskell is a purely functional programming language.
 In imperative languages you get things done by giving the computer a sequence of tasks and then it executes them. 
 While executing them, it can change state. 
 For instance, you set variable a to 5 and then do some stuff and then set it to something else. 
@@ -65,7 +65,23 @@ If you say that a is 5, you can't say it's something else later because you just
 What are you, some kind of liar? So in purely functional languages, a function has no side-effects. 
 The only thing a function can do is calculate something and return it as a result. 
 At first, this seems kind of limiting but it actually has some very nice consequences: if a function is called twice with the same parameters, it's guaranteed to return the same result. 
-That's called referential transparency and not only does it allow the compiler to reason about the program's behavior, but it also allows you to easily deduce (and even prove) that a function is correct and then build more complex functions by gluing simple functions together. 
+That's called referential transparency and not only does it allow the compiler to reason about the program's behavior, but it also allows you to easily deduce (and even prove) that a function is correct and then build more complex functions by gluing simple functions together. -->
+
+![alt text](img/01-02-fx.png) Haskell é uma *linguagem de programação puramente funcional*.
+Em linguagens imperativas você realiza tarefas dando ao computador uma sequencia de tarefas e então ele as executa.
+Enquanto ele as executa, os estados podem mudar.
+Por exemplo, você define uma variaval `a` como `5`e depois faz alguma coisa e depois define outra coisa.
+Você tem estruturas de fluxo de controle para fazer alguma ação várias vezes.
+Em programação puramente funcional você não diz ao computador como fazer, mas ao invez disso você diz a ele o que as coisas são.
+O fatorial de um número é o produto de todos os números de um até este número, a soma de uma lista de números é o primeiro número mais a soma de todos os outros números, e assim por diante.
+Você expressa isso na forma de funções.
+Você também não pode definir uma variavel para algo e depois defini-la para outra coisa mais tarde.
+Se você disse que `a` é `5`, você não poderá dizer que é alguma outra coisa mais tarde, pois você já disse que era `5`.
+O que você é, alguma tipo de mentiroso? Então em linguagens puramente funcional, uma função não tem efeito colateral.
+A única coisa que uma função pode fazer é calcular algo e retornar isso como um resultado.
+No princípio, isto parece uma espécie de limitação, mas na verdade tem algumas consequências muito boas: Se uma função é chamada duas vezes com o mesmo parâmetro, isto garante que ela retornará o mesmo resultado as duas vezes.
+Isto é chamado de transparência referencial e não somente permite ao compilador raciocinar sobre o comportamento do programa, mas isso também permite você facilmente deduzir (e até provar) que uma função está correta e então contruir funções mais complexas encaixando funções mais simples.
+
 
 
 ![alt text](img/01-03-lazy.png)Haskell is lazy. 
