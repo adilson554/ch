@@ -279,7 +279,8 @@ In Haskell, lists are a homogenous data structure.
 It stores several elements of the same type. 
 That means that we can have a list of integers or a list of characters but we can't have a list that has a few integers and then a few characters. 
 And now, a list!
-Note: We can use the let keyword to define a name right in GHCI. 
+
+*Note:* We can use the let keyword to define a name right in GHCI. 
 Doing let a = 1 inside GHCI is the equivalent of writing a = 1 in a script and then loading it.
 
 ```Haskell
@@ -514,7 +515,7 @@ False
 ```
 
 Those were a few basic functions that operate on lists. 
-We'll take a look at more list functions later
+We'll take a look at more list functions [later](modules data-list)
 
 ## Texas ranges
 
@@ -604,7 +605,7 @@ replicate 3 10 returns [10,10,10].
 
 ![plain text](img/02-07-kermit.png) If you've ever taken a course in mathematics, you've probably run into set comprehensions. 
 They're normally used for building more specific sets out of general sets. 
-A basic comprehension for a set that contains the first ten even natural numbers is set notation. 
+A basic comprehension for a set that contains the first ten even natural numbers is $` S = \{2 \cdot x \,|\, x \in \mathbb{N},\, x \leq 10\}`$. 
 The part before the pipe is called the output function, x is the variable, N is the input set and x <= 10 is the predicate. 
 That means that the set contains the doubles of all natural numbers that satisfy the predicate.
 
@@ -759,11 +760,13 @@ But a tuple of size two (also called a pair) is its own type, which means that a
 Instead of surrounding the vectors with square brackets, we use parentheses: [(1,2),(8,11),(4,5)]. 
 What if we tried to make a shape like [(1,2),(8,11,5),(4,5)]? Well, we'd get this error:
 
+```Haskell
 Couldn't match expected type `(t, t1)'
 against inferred type `(t2, t3, t4)'
 In the expression: (8, 11, 5)
 In the expression: [(1, 2), (8, 11, 5), (4, 5)]
 In the definition of `it': it = [(1, 2), (8, 11, 5), (4, 5)]
+```
 
 It's telling us that we tried to use a pair and a triple in the same list, which is not supposed to happen. 
 You also couldn't make a list like [(1,2),("One",2)] because the first element of the list is a pair of numbers and the second element is a pair consisting of a string and a number. 
